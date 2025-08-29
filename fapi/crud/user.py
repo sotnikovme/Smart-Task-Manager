@@ -1,4 +1,4 @@
-from fastapi import APIRouter
+from fapi import APIRouter
 
 from sqla.crud.OperationsWithUsers import create_user, update_user, find_user_by_id
 
